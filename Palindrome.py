@@ -13,3 +13,4 @@ if (Palindrome == reverse):
     print("IT'S A PALINDROME AS"," Your value : ",Palindrome, " is equal to : ", reverse)
 else:
     print("IT'S NOT A PALINDROME AS "," Your value : ",Palindrome, " is not equal to : ", reverse)
+    
