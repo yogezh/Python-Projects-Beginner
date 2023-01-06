@@ -8,7 +8,6 @@ while (UserInput>0) :
     reverse = reverse * 10 + remainder
     quotient = UserInput // 10
     UserInput = quotient
-print(UserInput,reverse)
 if (Palindrome == reverse):
     print("IT'S A PALINDROME AS"," Your value : ",Palindrome, " is equal to : ", reverse)
 else:
