@@ -1,0 +1,8 @@
+print("REVERSE OF STRING WORDS BY WORDS")
+userinput = str(input("Enter your Message to Reverse it : "))
+reverse = userinput.split()
+reversestr = " ".join(reverse[::-1])
+print("Your Entered Message was : ")
+print(userinput)
+print("Your Reverse Message is : ")
+print(reversestr)
